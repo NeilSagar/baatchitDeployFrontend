@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const url = "http://localhost:5000";
+// const url = "http://localhost:5000";
+const url ="https://baatchitbackent.onrender.com";
 
 export const handleRegister=async (userDetails)=>{
     try {
